@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Articulos de compra</title>
+        <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+        <script src="https://use.fontawesome.com/1cf4292344.js"></script><!-- botones -->
+    </head>
+    <body background="../img/fondo1.jpg">  
+        <div class="container">
+            <div class="centrado">
+                <font face="Script Fontst">
+                <h1 style="color:black" aling="center"><i>Registro</i></h1><br>
+            </div>
+            <form method="POST" action="#" enctype="multipart/form-data">
+                <div class="row"><br><br>
+                    <div class="col-md-12">                      
+                        <div class="form-group row m-b-15">
+                            <label style="color: black;" class="col-form-label col-md-3">Nombre:</label>
+                            <div class="col-md-9">
+                                <input type="text" name="txt_nombre" class="form-control m-b-5" placeholder="Nombre de la persona" />
+                            </div>
+                        </div>
+                        <div class="form-group row m-b-15">
+                            <label style="color: black;"class="col-form-label col-md-3">Apellidos:</label>
+                            <div class="col-md-9">
+                                <input type="text" name="txt_apellidos" class="form-control m-b-5" placeholder="Apellidos de la persona" />
+                            </div>
+                        </div> 
+                        <div style="color: black;"class="form-group row m-b-15"><label class="col-form-label col-md-3">Telefono:</label>
+                            <div class="col-md-9">
+                                    <input type="number" name="number_telefono" class="form-control m-b-5" placeholder="N&uacute;mero telef&oacute;nico" />
+                            </div>
+                        </div>
+                        <div class="form-group row m-b-15">
+                            <label style="color: black;"class="col-form-label col-md-3">Correo electr&oacute;nico:</label>
+                            <div class="col-md-9">
+                                <input type="text" name="txt_email" class="form-control m-b-5" placeholder="Correo Electronico" />
+                            </div>
+                        </div>
+                        <div class="form-group row m-b-15">
+                            <label style="color: black;"class="col-form-label col-md-3">Fecha De Nacimiento:</label>
+                            <div class="col-md-9">
+                                <input type="date" name="txt_fechaN" class="form-control m-b-5" placeholder="dd/mm/aaaa" />
+                            </div>
+                        </div>
+                        <div class="form-group row m-b-15">
+                            <label style="color: black;" class="col-form-label col-md-3">Genero:</label>
+                                <div class="custom-control custom-radio mb-1">
+                                    <input type="radio" id="rd_genero1" name="rd_genero" class="custom-control-input" value="m" checked>
+                                    <label style="color: black;" class="custom-control-label" for="rd_genero1">Mujer</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="rd_genero2" name="rd_genero" class="custom-control-input" value="h">
+                                    <label style="color: black;" class="custom-control-label" for="rd_genero2">Hombre</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="rd_genero2" name="rd_genero" class="custom-control-input" value="h">
+                                    <label style="color: black;" class="custom-control-label" for="rd_genero2">no definido</label>
+                                </div>
+                            </div>
+                    </div><br>
+                    <div class="col-md-12">
+                        <div class="float-left">
+                            <i class="fa fa-user-plus"  aria-hidden="true" style="color:#FDFEFE;"></i>
+                            <input type="submit" class="btn btn-xl btn-primary m-r-5" name="btn_enviar" value="Añadir">
+                        </div><br><br>
+                        <div class="pull-right">
+                            <a href="html\index.html" class="btn btn-primary"><i class="fa fa-angle-left" aria-hidden="true" style="color:black;"></i> Regresar</a>
+                        </div>
+                    </div>
+                </div>                
+                <div class="row">
+                    <div class="col-md-12"><hr>	                                      
+            </form>    
+        </div>
+    </body>
+    <footer>
+        <div class="container-body">
+            <div class="colum1">
+                <h1>Mas infomaci&oacute;n de la compa&ntilde;&iacute;a</h1>
+                <p>
+                    Esta compa&ntilde;&iacute;a se dedica a la venta de art&iacute;culos electr&oacute;nicos...
+                </p>
+            </div>
+            <!--agregar href -->
+            <div class="colum2">
+                <h1>Redes Sociales</h1>
+                <div class="row">
+                    
+                    <img src="../img/icons/facebook_icon-icons.com_59205.png" alt="">
+                    <a  href="https://www.facebook.com/" target="_blank"><h6>Siguenos en Facebook</h6></a>
+                    
+                </div>
+                <div class="row">
+                    <img src="../img/icons/580b57fcd9996e24bc43c53e.png" alt="">
+                    <a  href="https://twitter.com/" target="_blank"><h6>Siguenos en Twitter</h6></a>
+                </div>
+                <div class="row">
+                    <img src="../img/icons/1b2ca367caa7eff8b45c09ec09b44c16-logotipo-de-icono-de-instagram-by-vexels.png"
+                        alt="">
+                    <a  href="https://www.instagram.com/" target="_blank"><h6>Siguenos en instagram</h6></a>
+                </div>
+            </div>
+            <div class="colum3">
+                <h1>Informaci&oacute;n Contactos</h1>
+                <div class="row2">
+                    <img src="../img/icons/823-8236029_senior-care-icon-home-page-icon-grey.png" alt="">
+                    <label>De la Entrada del Barrio Chino,
+                        Avenida Segunda,
+                        50 m al Norte,
+                        Comercial Nueva Era</label>
+                </div>
+                <div class="row2">
+                    <img src="../img/icons/1259165_preview_preview.png" alt="">
+                    <label>4001-4991 - 4000-2224</label>
+                </div>
+                <div class="row2">
+                    <img src="../img/Icons/216527.png"
+                        alt="">
+                    <label>ventas@OWL.com</label>
+                </div>
+            </div>
+        </div>
+    </footer>
+</html>
